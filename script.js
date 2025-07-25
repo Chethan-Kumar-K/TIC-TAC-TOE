@@ -12,7 +12,7 @@ function checkWinner() {
     (arr[0] !== null && arr[0] == arr[4] && arr[4] == arr[8]) ||
     (arr[2] !== null && arr[2] == arr[4] && arr[4] == arr[6])
   ) {
-    document.getElementById("result").innerText = `Winner is ${currentPlayer}`;
+    document.getElementById("result").innerText = `Winner is ${currentPlayer} 🎉`;
     return;
   }
 
